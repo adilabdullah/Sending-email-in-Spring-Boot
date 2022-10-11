@@ -23,11 +23,11 @@ public class SMSService{
   	  HttpHeaders headers = new HttpHeaders();
   	    // set `accept` header
   	    headers.set("x-request-source", "desktop");
-  	    headers.set("X-Rapidapi-Key","99b0e67939msh436e0afabdd016ap1824acjsn0dbf5b972774");
-  	    headers.set("X-Rapidapi-Host","d7sms.p.rapidapi.com");
-  	    headers.set("Token","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoLWJhY2tlbmQ6YXBwIiwic3ViIjoiOTgzNGY3OGEtZTdmYS00MDA1LThlN2MtOGU1MTAyMmM0ZDdjIn0.HtG1heCxc0zW5nqCErHVUQcqcsf1c8E4fO4_lQcFetM");
+  	    headers.set("X-Rapidapi-Key","########################################");
+  	    headers.set("X-Rapidapi-Host","#################");
+  	    headers.set("Token","################################################################################################);
   	    HttpEntity request = new HttpEntity(headers);
-		final String msgServiceUrl = "https://d7sms.p.rapidapi.com/messages/v1/send";
+		final String msgServiceUrl = "##################################";
       String req="{\r\n" + 
       		"    \"messages\": [\r\n" + 
       		"        {\r\n" + 
